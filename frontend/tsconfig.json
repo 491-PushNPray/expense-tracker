@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "ES2022",
+    "moduleDetection": "legacy",
+    "lib": ["ES2017", "DOM"],
+    "types": ["angular"],
+    "strict": true,
+    "noEmitOnError": true
+  },
+  "files": ["app.ts"]
+}
