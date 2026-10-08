@@ -17,7 +17,12 @@ FastAPI REST API for expense categories and transactions, stored in Firebase Clo
    pip install -r requirements.txt
    ```
 
-3. Copy `.env.example` to `.env` and enter the Firebase project ID and absolute path to a Firebase service account JSON file.
+3. Create a `.env` file in this directory with your Firebase project ID and the absolute path to your service account JSON file:
+
+   ```env
+   FIREBASE_PROJECT_ID=your-project-id
+   GOOGLE_APPLICATION_CREDENTIALS=/absolute/path/to/backend/firebase-service-account.json
+   ```
 
 4. Start the API from this directory:
 
