@@ -1,0 +1,32 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "typecheck": "tsc --noEmit",
+    "start": "npm run build && python3 -m http.server 4200 --bind localhost"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "angular": "1.8.3",
+    "angular-animate": "1.8.3",
+    "angular-aria": "1.8.3",
+    "angular-cookies": "1.8.3",
+    "angular-i18n": "1.8.3",
+    "angular-messages": "1.8.3",
+    "angular-resource": "1.8.3",
+    "angular-route": "1.8.3",
+    "angular-sanitize": "1.8.3",
+    "angular-touch": "1.8.3"
+  },
+  "devDependencies": {
+    "@types/angular": "^1.8.9",
+    "typescript": "^7.0.2"
+  }
+}
