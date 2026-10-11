@@ -2,6 +2,8 @@
 
 A simple expense-tracking web application built with a Python backend, an Angular and TypeScript frontend, and Firebase as the database.
 
+The backend API is available in [`backend`](backend/README.md).
+
 ## Features
 
 - Create, view, update, and delete transactions
